@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa41c68f-39a6-4a4e-9429-81250bd31377" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/01-inheritance-dry/src/main/java/it/unibo/inheritance/impl/ExtendedStrictBankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-inheritance-dry/src/main/java/it/unibo/inheritance/impl/ExtendedStrictBankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-abstract-classes/src/main/java/it/unibo/inheritance/api/AbstractBankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-abstract-classes/src/main/java/it/unibo/inheritance/api/AbstractBankAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,10 +47,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$/03-exceptions" gradleHome="C:\Users\jacop\.gradle\wrapper\dists\gradle-9.2.0-bin\11i5gvueggl8a5cioxuftxrik\gradle-9.2.0" javaHome="C:\Users\jacop\.jdks\temurin-25" gradleVersion="9.2.0" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="35KCl3iVZ3sVGIiqjXmsDkgCk1P" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,6 +60,7 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Gradle.01-inheritance-dry [:it.unibo.inheritance.impl.ExtendedStrictBankAccount.main()].executor": "Run",
+    "Gradle.01-inheritance-dry [:it.unibo.inheritance.test.TestBankAccount.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -75,6 +77,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestBankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="it.unibo.inheritance.test.TestBankAccount" />
+      <module name="01-inheritance-dry.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="it.unibo.inheritance.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestBankAccount" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
