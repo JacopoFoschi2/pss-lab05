@@ -15,12 +15,14 @@ public class ExtendedStrictBankAccount extends SimpleBankAccount{
         }
     }
 
+    @Override
     public void withdraw(final int id, final double amount) {
         if (isWithdrawAllowed(amount)) {
             this.transactionOp(id, -amount);
         }
     }
 
+    @Override
     public void chargeManagementFees(final int id) {
         final double feeAmount = MANAGEMENT_FEE + super.getTransactionsCount() * TRANSACTION_FEE;
         if (checkUser(id) && isWithdrawAllowed(feeAmount)) {
