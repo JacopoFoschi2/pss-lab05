@@ -41,7 +41,7 @@ public class TestBankAccount {
         /*
          * Change SimpleBankAccount to ExtendedStrictBankAccount
          */
-        final BankAccount rossisAccount = new SimpleBankAccount(aRossi.getUserID(), 0);
+        final BankAccount rossisAccount = new StrictBankAccount(aRossi.getUserID(), 0);
         final BankAccount bianchisAccount = new ExtendedStrictBankAccount(aBianchi.getUserID(), 0);
         requireSameAmount(rossisAccount, bianchisAccount);
         // First deposit
