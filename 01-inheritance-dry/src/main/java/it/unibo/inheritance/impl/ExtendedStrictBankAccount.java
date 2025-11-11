@@ -11,13 +11,13 @@ public class ExtendedStrictBankAccount extends SimpleBankAccount{
     private void transactionOp(final int id, final double amount) {
         if (checkUser(id)) {
             super.setBalance(super.getBalance() + amount);
-            this.incrementTransactions();
+            super.incrementTransactions();
         }
     }
 
     @Override
     public void withdraw(final int id, final double amount) {
-        if (isWithdrawAllowed(amount)) {
+        if (this.isWithdrawAllowed(amount)) {
             this.transactionOp(id, -amount);
         }
     }
