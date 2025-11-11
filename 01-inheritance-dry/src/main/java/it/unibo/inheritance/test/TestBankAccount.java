@@ -6,7 +6,7 @@ import it.unibo.inheritance.impl.SimpleBankAccount;
 import it.unibo.inheritance.impl.StrictBankAccount;
 
 public class TestBankAccount {
-    private static final int INTIAL_AMOUNT = 10000;
+    private static final int INITIAL_AMOUNT = 10000;
     private static final int WITHDRAW_AMOUNT = 15000;
 
     private TestBankAccount() {
@@ -44,16 +44,16 @@ public class TestBankAccount {
         final BankAccount bianchisAccount = new StrictBankAccount(aBianchi.getUserID(), 0);
         requireSameAmount(rossisAccount, bianchisAccount);
         // First deposit
-        rossisAccount.deposit(aRossi.getUserID(), INTIAL_AMOUNT);
-        bianchisAccount.deposit(aBianchi.getUserID(), INTIAL_AMOUNT);
+        rossisAccount.deposit(aRossi.getUserID(), INITIAL_AMOUNT);
+        bianchisAccount.deposit(aBianchi.getUserID(), INITIAL_AMOUNT);
         requireSameAmount(rossisAccount, bianchisAccount);
         // Withdraw
         rossisAccount.withdraw(aRossi.getUserID(), WITHDRAW_AMOUNT);
         bianchisAccount.withdraw(aBianchi.getUserID(), WITHDRAW_AMOUNT);
         requireSameAmount(rossisAccount, bianchisAccount);
         // Second deposit
-        rossisAccount.deposit(aRossi.getUserID(), INTIAL_AMOUNT);
-        bianchisAccount.deposit(aBianchi.getUserID(), INTIAL_AMOUNT);
+        rossisAccount.deposit(aRossi.getUserID(), INITIAL_AMOUNT);
+        bianchisAccount.deposit(aBianchi.getUserID(), INITIAL_AMOUNT);
         requireSameAmount(rossisAccount, bianchisAccount);
         // Withdraw
         rossisAccount.withdraw(aRossi.getUserID(), WITHDRAW_AMOUNT);
