@@ -22,7 +22,6 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/03-exceptions" />
-        <option name="gradleJvm" value="temurin-25" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/03-exceptions" />
